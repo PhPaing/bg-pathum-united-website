@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root { --brand:#0f2242 }
+body { 
+  font-family: 'wittayakarn-regular-webfont', system-ui, sans-serif; 
+  background:#f9f9f9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Chatbot specific styles */
+.chatbot-message-enter {
+  animation: fadeIn 0.3s ease-out;
+}

@@ -1,0 +1,251 @@
+.service_area {
+  padding: 50px 0;
+  background: #0d2d5d;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.matches-row {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.match-card {
+  flex: 1;
+  min-width: 0;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  background: #0f2242;
+  color: white;
+  padding: 12px 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.next-match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tournament-img {
+  width: 70px;
+  height: 25px;
+  object-fit:fill;
+}
+
+.card-body {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer {
+  padding: 12px 15px;
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+
+/* Match Section */
+.match-info {
+  margin-bottom: 15px;
+}
+
+.match-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.match-date strong {
+  font-size: 12px;
+  color: #333;
+}
+
+.stadium-name strong {
+  font-size: 11px;
+  color: #666;
+  text-align: center;
+  display: block;
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.team-name {
+  font-size: 11px;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+.vs-circle {
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: #0f2242;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+/* League Table */
+.league-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.league-table th {
+  background: #f8f9fa;
+  padding: 8px 6px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 1px solid #dee2e6;
+  color: #333;
+}
+
+.league-table td {
+  padding: 6px 6px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+  vertical-align: middle;
+}
+
+.league-table tr:last-child td {
+  border-bottom: none;
+}
+
+.team-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.bgpu-row {
+  background: #f0f8ff !important;
+  font-weight: 600;
+}
+
+.bgpu-row td {
+  color: #0f2242 !important;
+}
+
+/* Shop Section */
+.shop-section {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.shop-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.shop-item {
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Buttons */
+.view-all-btn {
+  background: #29348F;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.view-all-btn:hover {
+  background: #1a3668;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .matches-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .match-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .service_area {
+    padding: 20px 0;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .team-logo {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .vs-circle {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+  
+  .league-table {
+    font-size: 11px;
+  }
+}

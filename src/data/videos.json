@@ -1,0 +1,58 @@
+{
+  "videos": [
+    {
+      "id": 474,
+      "title": "HIGHLIGHTS : BG PATHUM UNITED 1-1 RAYONG FC | BYD SEALION 6 LEAGUE 1 2025/26 (MW11)",
+      "thumbnail": "images/cover_fc/474_20251109_202132.jpg",
+      "category": "BG GOAL(HIGHLIGHT)",
+      "dateThai": "09 พ.ย 2568",
+      "dateEn": "09 Nov 2025",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example1"
+    },
+    {
+      "id": 473,
+      "title": "HIGHLIGHTS : CHONBURI FC 1-2 BG PATHUM UNITED | BYD SEALION 6 LEAGUE 1 2025/26 (MW10)",
+      "thumbnail": "images/cover_fc/473_20251102_215740.jpg",
+      "category": "BG GOAL(HIGHLIGHT)",
+      "dateThai": "02 พ.ย 2568",
+      "dateEn": "02 Nov 2025",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example2"
+    },
+    {
+      "id": 472,
+      "title": "HIGHLIGHTS : BG PATHUM UNITED 4-0 KAMPHAENGPHET FC | CHANG FA CUP 2025/26 (ROUND 64)",
+      "thumbnail": "images/cover_fc/472_20251029_210000.jpg",
+      "category": "BG GOAL(HIGHLIGHT)",
+      "dateThai": "29 ต.ค 2568",
+      "dateEn": "29 Oct 2025",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example3"
+    },
+    {
+      "id": 471,
+      "title": "POST MATCH INTERVIEW : BG PATHUM UNITED 1-1 RAYONG FC | BYD SEALION 6 LEAGUE 1 2025/26",
+      "thumbnail": "https://www.bgputd.com/official/images/cover_fc/471_20251109_210000.jpg",
+      "category": "BG INTERVIEW",
+      "dateThai": "09 พ.ย 2568",
+      "dateEn": "09 Nov 2025",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example4"
+    },
+    {
+      "id": 470,
+      "title": "FULL MATCH : BG PATHUM UNITED vs RAYONG FC | BYD SEALION 6 LEAGUE 1 2025/26",
+      "thumbnail": "https://www.bgputd.com/official/images/cover_fc/470_20251109_200000.jpg",
+      "category": "FULL MATCH",
+      "dateThai": "09 พ.ย 2568",
+      "dateEn": "09 Nov 2025",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example5"
+    },
+    {
+      "id": 469,
+      "title": "TRAINING SESSION : PREPARING FOR RAYONG FC MATCH",
+      "thumbnail": "https://www.bgputd.com/official/images/cover_fc/469_20251108_180000.jpg",
+      "category": "TRAINING",
+      "dateThai": "08 พ.ย 2568",
+      "dateEn": "08 Nov 2025",
+      "youtubeUrl": "https://www.youtube.com/watch?v=example6"
+    }
+  ]
+}

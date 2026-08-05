@@ -1,0 +1,435 @@
+.partners-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+/* Page Title Section */
+.partners-title-section {
+  background: linear-gradient(135deg, #fff 100%);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.partners-container-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.partners-title-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.partners-title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.partners-ex-link {
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #999;
+  top: 5px;
+  font-family: 'wittayakarn-regular-webfont';
+  border: 1px #ddd solid;
+  padding: 1px 10px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.partners-ex-link:hover {
+  color: black;
+  border-color: black;
+  transform: translateY(-2px);
+}
+
+.partners-arrow {
+  margin-left: 8px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.partners-ex-link:hover .partners-arrow {
+  transform: translateX(4px);
+}
+
+/* Main Grid Layout */
+.partners-grid-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Row Layout */
+.partners-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Logo Item */
+.partner-logo-item {
+  position: relative;
+  cursor: pointer;
+  background: transparent; 
+}
+
+.partner-logo-item:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Logo Wrapper */
+.partner-logo-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Logo Sizes */
+.main-brand-item .partner-logo-wrapper {
+  width: 320px;
+  height: 220px;
+  padding: 5px;
+}
+
+.top-partner-item .partner-logo-wrapper {
+  width: 150px;
+  height: 70px;
+  padding: 5px;
+}
+
+.middle-partner-item .partner-logo-wrapper {
+  width: 150px;
+  height: 70px;
+  padding: 5px;
+}
+
+.bottom-partner-item .partner-logo-wrapper {
+  width: 160px;
+  height: 80px;
+  padding: 5px;
+}
+
+/* Logo Image - Now shows original colors */
+.partner-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: none !important; /* Ensure no filters are applied */
+  -webkit-filter: none !important;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+/* On hover, fade out the original logo */
+.partner-logo-item:hover .partner-logo {
+  opacity: 0;
+}
+/* Hover Overlay */
+.partner-hover-overlay {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 79, 201, 0.95); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  z-index: 2;
+}
+
+.partner-logo-item:hover .partner-hover-overlay {
+  top: 0;
+}
+
+/* Hover Content */
+.partner-hover-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.partner-hover-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'wittayakarn-bold-webfont';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.partner-name {
+  font-family: 'wittayakarn-bold-webfont';
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+/* Font sizes for different partner types */
+.main-brand-item .partner-name {
+  font-size: 1.1rem;
+}
+
+.top-partner-item .partner-name {
+  font-size: 0.9rem;
+}
+
+.middle-partner-item .partner-name {
+  font-size: 0.8rem;
+}
+
+.bottom-partner-item .partner-name {
+  font-size: 0.75rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .partners-row {
+    gap: 2rem;
+  }
+  
+  .main-brand-item .partner-logo-wrapper {
+    width: 200px;
+    height: 110px;
+  }
+  
+  .top-partner-item .partner-logo-wrapper {
+    width: 140px;
+    height: 65px;
+  }
+  
+  .middle-partner-item .partner-logo-wrapper {
+    width: 120px;
+    height: 55px;
+  }
+  
+  .bottom-partner-item .partner-logo-wrapper {
+    width: 110px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .partners-grid-layout {
+    gap: 2rem;
+  }
+  
+  .partners-row {
+    gap: 1.5rem;
+  }
+  
+  .main-brand-item .partner-logo-wrapper {
+    width: 180px;
+    height: 100px;
+    padding: 12px;
+  }
+  
+  .top-partner-item .partner-logo-wrapper {
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  .middle-partner-item .partner-logo-wrapper {
+    width: 110px;
+    height: 50px;
+    padding: 8px;
+  }
+  
+  .bottom-partner-item .partner-logo-wrapper {
+    width: 100px;
+    height: 45px;
+    padding: 6px;
+  }
+  
+  .main-brand-item .partner-name {
+    font-size: 1rem;
+  }
+  
+  .top-partner-item .partner-name {
+    font-size: 0.85rem;
+  }
+  
+  .middle-partner-item .partner-name {
+    font-size: 0.75rem;
+  }
+  
+  .bottom-partner-item .partner-name {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners-title-content {
+    flex-direction: row;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .partners-title {
+    font-size: 1.5rem;
+  }
+  
+  .partners-ex-link {
+    font-size: 0.8rem;
+    padding: 4px 12px;
+  }
+  
+  .partners-grid-layout {
+    gap: 1.5rem;
+  }
+  
+  .partners-row {
+    gap: 1rem;
+  }
+  
+  .main-brand-item .partner-logo-wrapper {
+    width: 160px;
+    height: 90px;
+    padding: 10px;
+  }
+  
+  .top-partner-item .partner-logo-wrapper {
+    width: 120px;
+    height: 55px;
+    padding: 8px;
+  }
+  
+  .middle-partner-item .partner-logo-wrapper {
+    width: 100px;
+    height: 45px;
+    padding: 6px;
+  }
+  
+  .bottom-partner-item .partner-logo-wrapper {
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .partners-title {
+    font-size: 1.3rem;
+  }
+  
+  .partners-ex-link {
+    font-size: 0.7rem;
+    padding: 3px 10px;
+  }
+  
+  .partners-grid-layout {
+    gap: 1rem;
+  }
+  
+  .partners-row {
+    gap: 0.8rem;
+  }
+  
+  /* Adjust number of items per row for mobile */
+  .main-brand-row {
+    justify-content: center;
+  }
+  
+  .top-partners-row,
+  .middle-partners-row,
+  .bottom-partners-row {
+    gap: 0.8rem;
+  }
+  
+  .main-brand-item .partner-logo-wrapper {
+    width: 140px;
+    height: 80px;
+    padding: 8px;
+  }
+  
+  .top-partner-item .partner-logo-wrapper {
+    width: 100px;
+    height: 50px;
+    padding: 6px;
+  }
+  
+  .middle-partner-item .partner-logo-wrapper {
+    width: 85px;
+    height: 40px;
+    padding: 5px;
+  }
+  
+  .bottom-partner-item .partner-logo-wrapper {
+    width: 80px;
+    height: 35px;
+    padding: 4px;
+  }
+  
+  .main-brand-item .partner-name {
+    font-size: 0.9rem;
+  }
+  
+  .top-partner-item .partner-name {
+    font-size: 0.75rem;
+  }
+  
+  .middle-partner-item .partner-name {
+    font-size: 0.65rem;
+  }
+  
+  .bottom-partner-item .partner-name {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partners-row {
+    gap: 0.6rem;
+  }
+  
+  .main-brand-item .partner-logo-wrapper {
+    width: 120px;
+    height: 70px;
+  }
+  
+  .top-partner-item .partner-logo-wrapper {
+    width: 90px;
+    height: 45px;
+  }
+  
+  .middle-partner-item .partner-logo-wrapper {
+    width: 75px;
+    height: 35px;
+  }
+  
+  .bottom-partner-item .partner-logo-wrapper {
+    width: 70px;
+    height: 30px;
+  }
+}

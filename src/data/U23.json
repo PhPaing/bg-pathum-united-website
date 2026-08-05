@@ -1,0 +1,123 @@
+{
+  "players": [
+    {
+      "id": 13073,
+      "number": "19",
+      "name": "พิชญะ",
+      "surname": "ชัยวรางกุล",
+      "image": "/images/U23/2025-12-22_04-57-42_BAS_4551}-แก้ไข.jpg",
+      "type": 1,
+      "position": "Forward",
+      "nationality": "Thailand",
+      "Dominantfoot": "Right footed",
+      "Height": "180 CM"
+    },
+    {
+      "id": 13070,
+      "number": "22",
+      "name": "นาธาน",
+      "surname": "เจมส์",
+      "image": "/images/U23/2025-07-06_01-48-30_BG8_3917.jpg",
+      "type": 1,
+      "position": "Center Back",
+      "nationality": "England",
+      "Height": "189 CM"
+    },
+    {
+      "id": 13074,
+      "number": "30",
+      "name": "อิทธิมนต์",
+      "surname": "ทิพเนตร",
+      "image": "/images/U23/2025-12-22_04-42-43_BAS_4641}-แก้ไข.jpg",
+      "type": 1,
+      "position": "Left Wing",
+      "nationality": "Thailand",
+      "Dominantfoot": "Right footed",
+      "Height": "182 CM"
+    },
+    {
+      "id": 13067,
+      "number": "33",
+      "name": "พุดทะวง",
+      "surname": "สังวิไล",
+      "image": "/images/U23/2025-07-06_01-02-32_BG8_3861.jpg",
+      "type": 1,
+      "position": "Left Back",
+      "nationality": "Laos",
+      "Dominantfoot": "Left footed",
+      "Height": "170 CM"
+    },
+    {
+      "id": 13052,
+      "number": "47",
+      "name": "ณัฐวุฒิ",
+      "surname": "วงษ์สว่าง",
+      "image": "/images/U23/2025-07-06_01-21-26_BG8_5731.jpg",
+      "type": 1,
+      "position": "Center Back",
+      "nationality": "Thailand",
+      "Dominantfoot": "Right footed",
+      "Height": "185 CM"
+    },
+    {
+      "id": 13054,
+      "number": "50",
+      "name": "ธีรภัทร",
+      "surname": "ปรือทอง",
+      "image": "/images/U23/2025-07-06_01-04-27_BG8_5282.jpg",
+      "type": 1,
+      "position": "Right Wing",
+      "nationality": "Thailand",
+      "Dominantfoot": "Left footed",
+      "Height": "175 CM"
+    },
+    {
+      "id": 13068,
+      "number": "55",
+      "name": "ชานนท์",
+      "surname": "ทำมา",
+      "image": "/images/U23/2025-07-07_10-53-16_BG8_4026.jpg",
+      "type": 1,
+      "position": "Left Back",
+      "nationality": "Thailand",
+      "Dominantfoot": "Left footed",
+      "Height": "182 CM"
+    },
+    {
+      "id": 13071,
+      "number": "77",
+      "name": "ศิวกร",
+      "surname": "พลสรรค์",
+      "image": "/images/U23/2025-07-06_01-17-30_BG8_5347.jpg",
+      "type": 1,
+      "position": "Forward",
+      "nationality": "Thailand",
+      "Dominantfoot": "Right footed",
+      "Height": "184 CM"
+    },
+    {
+      "id": 13011,
+      "number": "81",
+      "name": "วาริส",
+      "surname": "ชูทอง",
+      "image": "/images/U23/2025-07-06_01-28-28_BG8_3742.jpg",
+      "type": 1,
+      "position": "Midfielder",
+      "nationality": "Thailand",
+      "Dominantfoot": "Right footed",
+      "Height": "180 CM"
+    },
+    {
+      "id": 12978,
+      "number": "89",
+      "name": "ชนภัช",
+      "surname": "บัวพันธ์",
+      "image": "/images/U23/2025-07-06_01-26-38_BG8_3794.jpg",
+      "type": 1,
+      "position": "Center Back",
+      "nationality": "Thailand",
+      "Dominantfoot": "Right footed",
+      "Height": "190 CM"
+    }
+  ]
+}

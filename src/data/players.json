@@ -1,0 +1,256 @@
+{
+  "players": [
+    {
+      "number": "1",
+      "nameThai": "สลาวิซ่า",
+      "nameEn": "Saviesa",
+      "image": "/images/players/2025-07-06_01-53-32_BG8_5764.jpg",
+      "id": "13065"
+    },
+    {
+      "number": "2",
+      "nameThai": "สัญชัย",
+      "nameEn": "Sanchai",
+      "image": "/images/players/2025-07-06_01-48-23_BG8_7906.jpg",
+      "id": "13034"
+    },
+    {
+      "number": "3",
+      "nameThai": "ทากากิ",
+      "nameEn": "Takaki",
+      "image": "/images/players/2025-07-06_01-33-32_BG8_4233.jpg",
+      "id": "13066"
+    },
+    {
+      "number": "4",
+      "nameThai": "ฉัตรมงคล",
+      "nameEn": "Chatmongkol",
+      "image": "/images/players/2025-07-10_09-38-52_BG8_6368.jpg",
+      "id": "12963"
+    },
+    {
+      "number": "5",
+      "nameThai": "กฤษดา",
+      "nameEn": "Kritsada",
+      "image": "/images/players/2025-07-06_01-28-23_BG8_6169.jpg",
+      "id": "13025"
+    },
+    {
+      "number": "6",
+      "nameThai": "สารัช",
+      "nameEn": "Sarath",
+      "image": "/images/players/2025-07-06_01-39-24_BG8_7378.jpg",
+      "id": "12948"
+    },
+    {
+      "number": "7",
+      "nameThai": "รานีล",
+      "nameEn": "Raneel",
+      "image": "/images/players/2025-07-06_01-09-28_BG8_6427.jpg",
+      "id": "13042"
+    },
+    {
+      "number": "8",
+      "nameThai": "เอกนิษฐ์",
+      "nameEn": "Eknit",
+      "image": "/images/players/2025-07-06_01-22-31_BG8_6544.jpg",
+      "id": "13069"
+    },
+    {
+      "number": "9",
+      "nameThai": "สุรชาติ",
+      "nameEn": "Surachat",
+      "image": "/images/players/2025-07-06_01-22-24_BG8_4958.jpg",
+      "id": "397"
+    },
+    {
+      "number": "10",
+      "nameThai": "โจเอล",
+      "nameEn": "Joel",
+      "image": "/images/players/2025-07-06_01-31-29_BG8_6769.jpg",
+      "id": "13072"
+    },
+    {
+      "number": "11",
+      "nameThai": "พาตริก",
+      "nameEn": "Patrick",
+      "image": "/images/players/2025-07-06_04-16-11_BG8_4778.jpg",
+      "id": "13006"
+    },
+    {
+      "number": "13",
+      "nameThai": "เจริญศักดิ์",
+      "nameEn": "Charoensak",
+      "image": "/images/players/2025-07-07_10-47-14_BG8_7270.jpg",
+      "id": "13040"
+    },
+    {
+      "number": "14",
+      "nameThai": "โทโมยูกิ",
+      "nameEn": "Tomoyuki",
+      "image": "/images/players/2025-07-06_01-54-34_BG8_4285.jpg",
+      "id": "13061"
+    },
+    {
+      "number": "15",
+      "nameThai": "มิลอส",
+      "nameEn": "Milos",
+      "image": "/images/players/2025-07-06_01-28-33_BG8_4590.jpg",
+      "id": "13064"
+    },
+    {
+      "number": "16",
+      "nameThai": "นิกา",
+      "nameEn": "Nika",
+      "image": "/images/players/2025-07-07_10-31-33_BG8_5149.jpg",
+      "id": "13057"
+    },
+    {
+      "number": "17",
+      "nameThai": "กาคุโตะ",
+      "nameEn": "Kakuto",
+      "image": "/images/players/2025-07-06_01-17-21_BG8_6487.jpg",
+      "id": "13045"
+    },
+    {
+      "number": "18",
+      "nameThai": "ชนาธิป",
+      "nameEn": "Chanathip",
+      "image": "/images/players/2025-07-06_01-40-12_BG8_6104.jpg",
+      "id": "13021"
+    },
+    {
+      "number": "19",
+      "nameThai": "พิชญะ",
+      "nameEn": "Phichaya",
+      "image": "/images/players/2025-08-14_05-51-53_1-1.jpg",
+      "id": "13073"
+    },
+    {
+      "number": "21",
+      "nameThai": "ศิวกรณ์",
+      "nameEn": "Siwakorn",
+      "image": "/images/players/2025-07-06_01-56-36_BG8_6691.jpg",
+      "id": "13037"
+    },
+    {
+      "number": "22",
+      "nameThai": "นาธาน",
+      "nameEn": "Nathan",
+      "image": "/images/players/2025-07-06_01-48-30_BG8_3917.jpg",
+      "id": "13070"
+    },
+    {
+      "number": "23",
+      "nameThai": "จอร์แดน เอฟา โอกวูดิลี",
+      "nameEn": "Jordan Efa Oguwudili",
+      "image": "/images/players/2025-07-07_10-00-33_BG8_4090.jpg",
+      "id": "13063"
+    },
+    {
+      "number": "26",
+      "nameThai": "รัตนชาติ",
+      "nameEn": "Ratthachat",
+      "image": "/images/players/2025-07-06_01-47-45_BG8_7487.jpg",
+      "id": "12946"
+    },
+    {
+      "number": "27",
+      "nameThai": "พงศ์รวิช",
+      "nameEn": "Pongrawit",
+      "image": "/images/players/2025-07-07_10-47-10_BG8_4328.jpg",
+      "id": "12726"
+    },
+    {
+      "number": "28",
+      "nameThai": "สรานนท์",
+      "nameEn": "Saranont",
+      "image": "/images/players/2025-07-06_02-32-15_BG8_5502.jpg",
+      "id": "13031"
+    },
+    {
+      "number": "29",
+      "nameThai": "วรินทร",
+      "nameEn": "Warintorn",
+      "image": "/images/players/2025-07-06_01-56-25_BG8_7770.jpg",
+      "id": "13033"
+    },
+    {
+      "number": "30",
+      "nameThai": "อิทธิมนต์",
+      "nameEn": "Itthimont",
+      "image": "/images/players/2025-08-14_05-17-53_1-2.jpg",
+      "id": "13074"
+    },
+    {
+      "number": "33",
+      "nameThai": "พุดทะวง",
+      "nameEn": "Putthawong",
+      "image": "/images/players/2025-07-06_01-02-32_BG8_3861.jpg",
+      "id": "13067"
+    },
+    {
+      "number": "47",
+      "nameThai": "ณัฐวุฒิ",
+      "nameEn": "Nattawut",
+      "image": "/images/players/2025-07-06_01-21-26_BG8_5731.jpg",
+      "id": "13052"
+    },
+    {
+      "number": "50",
+      "nameThai": "ธีรภัทร",
+      "nameEn": "Teerapat",
+      "image": "/images/players/2025-07-06_01-04-27_BG8_5282.jpg",
+      "id": "13054"
+    },
+    {
+      "number": "55",
+      "nameThai": "ชานนท์",
+      "nameEn": "Chanon",
+      "image": "/images/players/2025-07-07_10-53-16_BG8_4026.jpg",
+      "id": "13068"
+    },
+    {
+      "number": "69",
+      "nameThai": "เซย์ดีน โมฮามาดู",
+      "nameEn": "Seydine Mohamadou",
+      "image": "/images/players/2025-07-06_01-36-27_BG8_6041.jpg",
+      "id": "13028"
+    },
+    {
+      "number": "77",
+      "nameThai": "ศิวกร",
+      "nameEn": "Siwakorn",
+      "image": "/images/players/2025-07-06_01-17-30_BG8_5347.jpg",
+      "id": "13071"
+    },
+    {
+      "number": "81",
+      "nameThai": "วาริส",
+      "nameEn": "Waris",
+      "image": "/images/players/2025-07-06_01-28-28_BG8_3742.jpg",
+      "id": "13011"
+    },
+    {
+      "number": "89",
+      "nameThai": "ชนภัช",
+      "nameEn": "Chanapat",
+      "image": "/images/players/2025-07-06_01-26-38_BG8_3794.jpg",
+      "id": "12978"
+    },
+    {
+      "number": "93",
+      "nameThai": "พิศาล",
+      "nameEn": "Phisarn",
+      "image": "/images/players/2025-07-06_01-05-24_BG8_7852.jpg",
+      "id": "7548"
+    },
+    {
+      "number": "95",
+      "nameThai": "มาเธอุส คัสโตดิโอ",
+      "nameEn": "Mateus Custodio",
+      "image": "/images/players/2025-07-07_10-52-33_BG8_4897.jpg",
+      "id": "13062"
+    }
+  ]
+}

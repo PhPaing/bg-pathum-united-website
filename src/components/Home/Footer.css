@@ -1,0 +1,166 @@
+/* Footer.css */
+.footer {
+  background: #0d2d5d; 
+  padding: 40px 0 20px;
+}
+
+.footer_top {
+  border-top: 2px solid #0d2d5d;
+}
+
+.sponsors-wrap {
+  margin-bottom: 30px;
+}
+
+.partners-control {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.main-brand {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.sup__sponsors, .co__sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.scroll-top-rectangle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.8;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  background: #060e9f; 
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 4px 4px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.scroll-top-rectangle:hover {
+  color: #0056b3;
+  transform: translateY(-3px);
+}
+
+
+.logo-sponsor {
+  transition: transform 0.3s ease;
+}
+
+.logo-sponsor:hover {
+  transform: scale(1.05);
+}
+
+.sponsor-logo {
+  width: 120px;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.main-brand .sponsor-logo {
+  width: 180px;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background: #0f2242;
+  color: white;
+  width: 50px;
+  background-color:#060e9f;
+  border-radius: #0056b3;
+  height: 50px;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+  background: #1a3a6b;
+  transform: translateY(-2px);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .main-brand {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sup__sponsors, .co__sponsors {
+    gap: 15px;
+  }
+
+  .sponsor-logo {
+    width: 100px;
+  }
+
+  .main-brand .sponsor-logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sponsor-logo {
+    width: 80px;
+  }
+
+  .main-brand .sponsor-logo {
+    width: 120px;
+  }
+  
+  .sup__sponsors, .co__sponsors {
+    gap: 10px;
+  }
+}
+
+/* Bootstrap responsive utilities */
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-xl-block {
+  display: none !important;
+}
+
+.d-xl-none {
+  display: block !important;
+}
+
+@media (min-width: 1200px) {
+  .d-xl-block {
+    display: block !important;
+  }
+  
+  .d-xl-none {
+    display: none !important;
+  }
+}

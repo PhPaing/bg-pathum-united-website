@@ -1,0 +1,455 @@
+.club-management-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+/* Page Title Section */
+.club-management-title-section {
+  background: linear-gradient(135deg, #fff 100%);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.club-management-container-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.club-management-title-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.club-management-title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.club-management-ex-link {
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #999;
+  top: 5px;
+  font-family: 'wittayakarn-regular-webfont';
+  border: 1px #ddd solid;
+  padding: 1px 10px;
+  border-radius: 50px;
+  display: inline-block;
+  background: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.club-management-ex-link:hover {
+  color: black;
+  border-color: black;
+  transform: translateY(-2px);
+}
+
+.club-management-arrow {
+  margin-left: 8px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.club-management-ex-link:hover .club-management-arrow {
+  transform: translateX(4px);
+}
+
+/* Board and Organization Structure */
+.board-tabs {
+  margin-top: 2rem;
+}
+
+.board-tabs h3 {
+  font-size: 14px;
+  margin-bottom: 40px;
+  padding: 0;
+  line-height: 40px;
+  font-weight: 700;
+  color: #1A46BA;
+  text-transform: uppercase;
+}
+
+.board-tab-content {
+  margin-top: 2rem;
+}
+
+.title-board-organization {
+  margin-bottom: 2rem;
+}
+
+.title-board-organization h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* Tab Navigation */
+.nav-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav-buttons {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+}
+
+.nav-button {
+  background: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  padding: 12px 0 0;
+  margin-right: 25px;
+  margin-bottom: -2px;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: #1A46BA;
+}
+
+.nav-button.active {
+  color: #1A46BA;
+  border-bottom: 3px solid #1A46BA;
+}
+
+.nav-button:focus {
+  outline: 2px solid #1A46BA;
+  outline-offset: 2px;
+}
+
+.nav-button:focus-visible {
+  outline: 2px solid #1A46BA;
+  outline-offset: 2px;
+}
+
+/* Tab Panel */
+.tab-pane {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-pane.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Post Box (Person Card) */
+.post-box {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.post-box:hover {
+  transform: translateY(-5px);
+}
+
+.post-img {
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.post-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.post-box:hover .post-img img {
+  transform: scale(1.03);
+}
+
+.organization-image-shade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 50%);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.person-name {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: 'wittayakarn-bold-webfont';
+  padding: 0 10px;
+  z-index: 2;
+  margin: 0;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.post-title {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 500;
+  margin: 10px 0 0;
+  font-family: 'wittayakarn';
+  line-height: 1.4;
+  padding: 0 5px;
+}
+
+/* Ensure row spacing */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.row > .col-lg-3,
+.row > .col-md-6 {
+  padding: 0 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .post-img img {
+    height: 280px;
+  }
+  
+  .club-management-container-inner {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 992px) {
+  .club-management-title-content {
+    flex-direction: row;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .post-img img {
+    height: 400px;
+  }
+  
+  .nav-button {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  .club-management-container-inner {
+    max-width: 768px;
+  }
+  
+  .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .club-management-title {
+    font-size: 1.3rem;
+  }
+  
+  .club-management-ex-link {
+    font-size: 0.7rem;
+    padding: 3px 10px;
+  }
+  
+  .post-img img {
+    height: 220px;
+  }
+  
+  .nav-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .nav-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 8px 0;
+  }
+  
+  .title-board-organization h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .club-management-container-inner {
+    max-width: 576px;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .club-management-title {
+    font-size: 1.2rem;
+  }
+  
+  .club-management-ex-link {
+    font-size: 0.7rem;
+    padding: 3px 10px;
+  }
+  
+  .post-img img {
+    height: 200px;
+  }
+  
+  .person-name {
+    font-size: 12px;
+    bottom: 20px;
+  }
+  
+  .post-title {
+    font-size: 11px;
+  }
+  
+  .nav-buttons {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: none;
+  }
+  
+  .nav-button {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .nav-button.active {
+    border-bottom: 3px solid #1A46BA;
+  }
+  
+  .club-management-container-inner {
+    padding: 0 0.75rem;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .club-management-title-content {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .club-management-title {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .club-management-ex-link {
+    font-size: 0.65rem;
+    padding: 2px 8px;
+    top: 0;
+  }
+  
+  .post-img img {
+    height: 180px;
+  }
+  
+  .person-name {
+    font-size: 11px;
+    bottom: 15px;
+  }
+  
+  .post-title {
+    font-size: 10px;
+  }
+  
+  .title-board-organization h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .club-management-ex-link,
+  .club-management-arrow,
+  .nav-button,
+  .post-box,
+  .post-img img,
+  .tab-pane,
+  .tab-pane.active {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .club-management-ex-link,
+  .nav-buttons,
+  .post-box:hover {
+    display: none !important;
+  }
+  
+  .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  
+  .post-img img {
+    filter: grayscale(100%) !important;
+    box-shadow: none !important;
+  }
+}
