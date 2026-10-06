@@ -7,7 +7,8 @@
     "css-prefix-order": "off",
     "button-type": "off",
     "compat-api/css": "off",
-    "axe/aria": "off"
+    "axe/aria": "off",
+    "typescript-config/consistent-casing": "off"
   },
   "browserslist": [
     "defaults",
